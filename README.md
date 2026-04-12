@@ -27,4 +27,4 @@ Cadastral mapping project using ArcGIS Pro including georeferencing, digitizatio
 
 ## Project Report
 - [Download Layout Map](Layout3.pdf)
-- [Download Workflow Report](Khasraprojectworkflow.pdf)
+- [Download Workflow Report](Khasra%20project%20workflow.pdf)
