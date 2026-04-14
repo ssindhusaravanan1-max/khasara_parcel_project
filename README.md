@@ -32,7 +32,7 @@ Performed cadastral mapping using ArcGIS Pro, including georeferencing and digit
 
 ## PROJECT REPORT
 
-- [Download Layout Map](layout3.pdf)  
+- [Download Layout Map](Layout3.pdf)  
 - [Download Workflow Report](Khasra_project_workflow.pdf)
 - 
 Final Layout Map (Preview Image) 
