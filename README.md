@@ -1,4 +1,4 @@
-# Khasra Mapping Project
+# Khasra Parcel Mapping Project
 
 ## Overview
 Cadastral mapping project using ArcGIS Pro including georeferencing, digitization, topology validation, and layout creation.
