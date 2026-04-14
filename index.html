@@ -1,35 +1,189 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>GIS Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sindhu S | GIS Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #eef2f7;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #1f3a5f, #3498db);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #1f3a5f;
+    border-left: 5px solid #3498db;
+    padding-left: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 8px 5px 0 0;
+    padding: 10px 15px;
+    background: #3498db;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #2c80b4;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.skill-box {
+    background: #f7f9fc;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1f3a5f;
+    color: white;
+}
+</style>
 </head>
 
-<body style="font-family: Arial; margin: 30px;">
+<body>
 
-<h1>🌍 GIS Portfolio</h1>
+<header>
+    <h1>Sindhu S</h1>
+    <p>GIS QC Analyst | GIS Data Analyst | ArcGIS Pro | Cadastral Mapping | Topology Validation</p>
+</header>
 
-<h2>👩‍💻 About Me</h2>
-<p>MSc Geography graduate with GIS, QC, and data validation experience.</p>
+<div class="container">
 
-<h2>🛠 Technical Skills</h2>
-<ul>
-  <li>ArcGIS Pro / ArcMap</li>
-  <li>QGIS</li>
-  <li>Spatial Data Validation & QC</li>
-  <li>Parcel Mapping (Khasra)</li>
-  <li>Topology Error Correction</li>
-  <li>Drone Data Processing</li>
-  <li>Raster & Aerial Image Analysis</li>
-</ul>
+<div class="card">
+    <h2>About Me</h2>
+    <p>
+        I have 1.8 years of experience in Quality Control with strong skills in data validation and accuracy.
+        I have transitioned into GIS with hands-on experience in ArcGIS Pro, focusing on cadastral mapping,
+        parcel digitization, and topology validation.
+    </p>
+</div>
 
-<h2>📁 Project</h2>
-<ul>
-  <li><a href="Layout3.pdf">Download Layout Map</a></li>
-  <li><a href="Khasra_project_workflow.pdf">Download Workflow Report</a></li>
-</ul>
+<div class="card">
+    <h2>Project: Cadastral Mapping & Topology Validation (Khasra Parcel Project)</h2>
 
-<h2>📞 Contact</h2>
-<p>Email: yourmail@gmail.com</p>
+    <p>
+        Performed cadastral mapping using ArcGIS Pro, including georeferencing and digitization of parcel boundaries,
+        rivers, water courses, and command areas. Conducted topology validation to identify and correct overlaps and gaps,
+        ensuring spatial accuracy, and generated final layout maps.
+    </p>
+
+    <ul>
+        <li>Digitized cadastral parcel boundaries</li>
+        <li>Mapped rivers, water courses, and command areas</li>
+        <li>Assigned Khasra numbers and attributes</li>
+        <li>Performed topology validation</li>
+        <li>Corrected overlaps and gaps</li>
+        <li>Generated final layout map</li>
+    </ul>
+
+    <a class="btn" href="Khasra_project_workflow.pdf" target="_blank">Workflow Report</a>
+    <a class="btn" href="layout3.pdf" target="_blank">Final Layout Map</a>
+    <a class="btn" href="https://github.com/ssindhusaravanan1-max/khasra_parcel_project" target="_blank">
+        GitHub Repository
+    </a>
+
+    <h3>Before & After</h3>
+    <img src="before.png">
+    <img src="after.png">
+
+    <h3>Error Identification & Correction</h3>
+    <p>
+        Initial dataset contained topology errors such as overlaps and gaps. These were identified and corrected
+        using topology rules in ArcGIS Pro to ensure spatial accuracy.
+    </p>
+
+    <h3>Real-World Application</h3>
+    <p>
+        This project demonstrates cadastral mapping and topology validation concepts applicable in land record management,
+        urban planning, and infrastructure development.
+    </p>
+</div>
+
+<div class="card">
+    <h2>Skills</h2>
+
+    <div class="skills">
+        <div class="skill-box">
+            <b>GIS Tools</b>
+            <p>ArcGIS Pro, ArcMap, QGIS</p>
+        </div>
+
+        <div class="skill-box">
+            <b>Core Skills</b>
+            <p>Cadastral Mapping, Topology Validation, GIS QC</p>
+        </div>
+
+        <div class="skill-box">
+            <b>Spatial</b>
+            <p>Spatial Data Handling, Basic Analysis</p>
+        </div>
+
+        <div class="skill-box">
+            <b>Other</b>
+            <p>Remote Sensing (Basic), Drone (Basic)</p>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Contact</h2>
+    <a class="btn" href="mailto:ssindhusaravanan1@gmail.com">Email</a>
+    <a class="btn" href="https://linkedin.com/in/sindhu-saravanan-055341321" target="_blank">LinkedIn</a>
+    <a class="btn" href="https://github.com/ssindhusaravanan1-max" target="_blank">GitHub</a>
+</div>
+
+</div>
+
+<footer>
+    <p>© 2026 Sindhu S | GIS Portfolio</p>
+</footer>
 
 </body>
 </html>
